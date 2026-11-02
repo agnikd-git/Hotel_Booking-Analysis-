@@ -16,13 +16,13 @@ This project analyses hotel booking data to identify patterns in booking behavio
 
 # Project Workflow
 
-1. Data Cleaning — Microsoft Excel
+**1. Data Cleaning** — Microsoft Excel
 Prepared the raw dataset for analysis by carrying out data-cleaning and preparation tasks.
 - Reviewed the dataset for data-quality issues.
 - Cleaned and prepared the data for querying.
 - Organised the data for the analysis workflow.
 
-2. Data Analysis — SQL
+**2. Data Analysis** — SQL
 Used SQL to investigate booking performance and answer the business questions.
 
 The analysis covers:
@@ -36,12 +36,12 @@ The analysis covers:
   
 The SQL scripts used for the analysis are available in the [`sql/`](sql/) folder.
 
-3. Data Visualisation — Power BI
+**3. Data Visualisation** — Power BI
 Developed Power BI dashboards to present the results in a clear, business-focused format.
 
 The report is organised into three analytical sections:
 
-Executive Overview
+**Executive Overview**
 A high-level view of hotel performance, including:
 - Total revenue
 - Total bookings
@@ -54,14 +54,14 @@ A high-level view of hotel performance, including:
 - Room rate and cancellation relationship
 - Booking statistics by customer segment and channel
 
-Booking Analysis
+**Booking Analysis**
 Examines booking outcomes and customer booking behaviour through:
 - Confirmed vs. cancelled bookings by loyalty level
 - Booking distribution by channel
 - Cancellation lead time
 - Customer booking statistics by loyalty level and channel
 
-Timeline Analysis
+**Timeline Analysis**
 Explores when customers make bookings and when they stay:
 - Booking lead time
 - Booking month vs. actual stay month
@@ -70,7 +70,7 @@ Explores when customers make bookings and when they stay:
 - Booking distribution by day of the week
 - Average length of stay
 
-Revenue Analysis
+**Revenue Analysis**
 Investigates revenue distribution across customer segments and booking channels:
 - Revenue by loyalty level
 - Revenue by booking channel
