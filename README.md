@@ -4,9 +4,9 @@ An end-to-end data analytics project exploring hotel bookings, cancellations, cu
 
 # Tools & Technologies
 
-Microsoft Excel -	Data cleaning and preparation
-SQL -	Data querying, aggregation, and analysis
-Microsoft Power BI -	Data modelling, visualisation, and dashboard development
+- Microsoft Excel -	Data cleaning and preparation
+- SQL -	Data querying, aggregation, and analysis
+- Microsoft Power BI -	Data modelling, visualisation, and dashboard development
 
 # Project Overview
 
