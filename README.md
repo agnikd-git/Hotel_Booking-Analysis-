@@ -6,9 +6,9 @@ An end-to-end data analytics project exploring hotel bookings, cancellations, cu
 
 - Microsoft Excel -	Data cleaning and preparation
 - SQL -	Data querying, aggregation, and analysis
-- Microsoft Power BI -	Data modelling, visualisation, and dashboard development
+- Microsoft Power BI -	Data modelling, DAX, data visualisation, and dashboard development
 
-# Project Overview
+# Project / Business Requirement
 
 Hotel businesses need to understand not only how many bookings they receive, but also when customers book, which channels they use, how often bookings are cancelled, and which customer segments and channels contribute the most revenue.
 
