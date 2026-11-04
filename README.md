@@ -1,6 +1,6 @@
 # Hotel Booking & Revenue Analysis
 
-An end-to-end data analytics project exploring hotel bookings, cancellations, customer segments, booking channels, stay patterns, and revenue. The project follows a practical analytics workflow: data cleaning in Microsoft Excel, data analysis using SQL, and business intelligence reporting in Power BI.
+An analysis of hotel booking data to evaluate key business areas, including booking trends, customer behaviour, cancellations, revenue, customer loyalty, and booking channel performance. Microsoft Excel was used for data cleaning, SQL for data analysis, and Power BI for interactive dashboards and visualisation. The project aims to generate actionable insights and recommendations to optimise bookings, improve customer experience, and support planning for the upcoming year.
 
 # Tools & Technologies
 
@@ -68,4 +68,10 @@ Based on the analysis, the following recommendations can help the hotel prepare 
 5. Plan Staffing and Operations: Use historical booking patterns and average length of stay to forecast customer demand, plan staffing requirements, and ensure the hotel is prepared to accommodate guests during busy periods.
 
 6. Review Pricing Strategies: Analyse room rates, booking trends, and cancellation patterns to identify opportunities for better pricing strategies that maximise revenue while remaining competitive.
+
+
+
+# Links
+
+LinkedIn - 
 
