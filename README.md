@@ -10,9 +10,13 @@ An end-to-end data analytics project exploring hotel bookings, cancellations, cu
 
 # Project / Business Requirement
 
-Hotel businesses need to understand not only how many bookings they receive, but also when customers book, which channels they use, how often bookings are cancelled, and which customer segments and channels contribute the most revenue.
+A hotel wants to analyse its booking and revenue data from the past year to evaluate its overall performance and prepare for the upcoming year. With bookings coming from multiple channels and customers belonging to different loyalty segments, the hotel aims to gain a better understanding of its booking patterns, customer behaviour, cancellation trends, and revenue performance.
 
-This project analyses hotel booking data to identify patterns in booking behaviour, cancellations, customer loyalty levels, booking channels, and revenue. The results are presented through a set of Power BI dashboards designed to make key business metrics and trends easy to explore.
+The objective is to use historical booking data to identify trends and patterns that can help the hotel make more informed business decisions. By analysing booking trends across different months and days, the hotel wants to anticipate periods of high and low demand, optimise room availability, plan staffing requirements, and ensure it can accommodate customers efficiently.
+
+The hotel also wants to understand customer behaviour, including how far in advance customers make bookings, their length of stay, cancellation patterns, and preferences across different booking channels and loyalty levels. Additionally, analysing revenue by customer segment and booking channel will help the hotel evaluate its marketing and distribution strategies, identify valuable customer groups, and determine where future marketing efforts should be focused.
+
+Ultimately, the goal is to leverage insights from the previous year's data to optimise bookings, improve customer experience, maximise revenue opportunities, and develop a more effective business strategy for the upcoming year.
 
 # Project Workflow
 
@@ -23,16 +27,7 @@ Prepared the raw dataset for analysis by carrying out data-cleaning and preparat
 - Organised the data for the analysis workflow.
 
 **2. Data Analysis** — SQL
-Used SQL to investigate booking performance and answer the business questions.
 
-The analysis covers:
-- Confirmed and cancelled booking counts.
-- Cancellation rates.
-- Booking volumes by loyalty level and booking channel.
-- Booking lead-time patterns.
-- Booking and stay trends over time.
-- Revenue by customer segment and booking channel.
-- Room-rate and cancellation patterns.
   
 The SQL scripts used for the analysis are available in the [`sql/`](sql/) folder.
 
@@ -41,52 +36,36 @@ Developed Power BI dashboards to present the results in a clear, business-focuse
 
 The report is organised into three analytical sections:
 
-**Executive Overview**
-A high-level view of hotel performance, including:
-- Total revenue
-- Total bookings
-- Confirmed bookings
-- Cancellation percentage
-- Average room rate
-- Average length of stay
-- Monthly booking patterns
-- Revenue distribution by loyalty level
-- Room rate and cancellation relationship
-- Booking statistics by customer segment and channel
 
-**Booking Analysis**
-Examines booking outcomes and customer booking behaviour through:
-- Confirmed vs. cancelled bookings by loyalty level
-- Booking distribution by channel
-- Cancellation lead time
-- Customer booking statistics by loyalty level and channel
-
-**Timeline Analysis**
-Explores when customers make bookings and when they stay:
-- Booking lead time
-- Booking month vs. actual stay month
-- Monthly booking trends
-- Monthly stay trends
-- Booking distribution by day of the week
-- Average length of stay
-
-**Revenue Analysis**
-Investigates revenue distribution across customer segments and booking channels:
-- Revenue by loyalty level
-- Revenue by booking channel
-- Revenue trends over time
-- Revenue distribution across customer segments
-- Room rate and cancellation patterns
 
 
 # Key Findings
 
-The following observations are based on the metrics and visualisations displayed in the Power BI report -
+The following findings are based on the metrics and visuals in the Power BI dashboards.
+1. Booking volume: The dataset contains approximately 5,000 bookings, including cancellations, with approximately 3,560 confirmed bookings.
+2. Cancellations: The reported cancellation rate is 28.72%, indicating that cancellations represent a substantial share of booking activity.
+3. Revenue: The dashboards report total revenue of approximately $898.64K.
+4. Revenue by loyalty level: Non-members contribute the largest revenue amount (approximately $346.46K), followed by Essential members (approximately $216.75K).
+5. Bookings by channel: At-the-hotel bookings represent the largest share (29.46%), followed by Velora.com (23.06%) and GDS (20.85%).
+6. Cancellation lead time: The “More Than a Month Ahead” category has the highest displayed cancellation count (694) among the lead-time categories.
+7. Day of the week: Thursday has the highest booking count (579) in the day-of-week comparison.
+8. Booking and stay trends: The timeline charts show a noticeable increase in activity around September and October 2024.
+9. Room rate and cancellations: The scatter plot shows a positive association between room rate and the displayed cancellation measure. This is a pattern in the data and does not establish that higher room rates cause cancellations.
 
-1. Booking cancellations are a significant part of booking activity. The reported cancellation rate is 28.72%.
-2. Non-members contribute the largest share of revenue by loyalty segment, at approximately $346.46K, followed by Essential members at approximately $216.75K.
-3. At-the-hotel bookings account for the largest share of bookings by channel at 29.46%, followed by Velora.com at 23.06% and GDS at 20.85%.
-4. Bookings made more than a month in advance have the highest cancellation count among the displayed lead-time categories, with 694 cancellations.
-5. Thursday has the highest booking count in the day-of-week comparison, with 579 bookings.
-6. Booking activity increases substantially around September and October 2024 in the timeline visualisations.
-7. The room-rate scatter plot shows a positive association between room rate and the displayed cancellation measure. This is an observed pattern, not evidence that higher room rates cause cancellations.
+
+
+# Recommendations
+Based on the analysis, the following recommendations can help the hotel prepare for the upcoming year:
+
+1. Optimise Room Availability: Use historical monthly and weekly booking trends to anticipate high-demand and low-demand periods, ensuring better room allocation and availability.
+
+2. Improve Cancellation Management: Investigate the high cancellation rate, particularly among customers booking more than a month in advance. Consider flexible booking policies, reminders, or advance deposits to reduce cancellations.
+
+3. Strengthen Marketing Strategies: Focus marketing efforts on booking channels that generate higher bookings and revenue. Evaluate channel performance to allocate marketing budgets more effectively.
+
+4. Improve Customer Retention: Since non-members contribute the highest revenue, introduce targeted loyalty programmes and membership offers to encourage repeat bookings and build long-term customer relationships.
+
+5. Plan Staffing and Operations: Use historical booking patterns and average length of stay to forecast customer demand, plan staffing requirements, and ensure the hotel is prepared to accommodate guests during busy periods.
+
+6. Review Pricing Strategies: Analyse room rates, booking trends, and cancellation patterns to identify opportunities for better pricing strategies that maximise revenue while remaining competitive.
+
